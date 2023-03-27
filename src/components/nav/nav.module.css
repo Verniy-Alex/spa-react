@@ -1,0 +1,25 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    background: #666;
+    background: rgb(55, 54, 80);
+    background: linear-gradient(264deg, rgba(55, 54, 80, 1) 0%, rgba(49, 75, 87, 1) 58%, rgba(46, 69, 89, 1) 100%);
+    height: 60px;
+}
+
+.nav-wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: green;
+}
